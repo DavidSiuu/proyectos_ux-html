@@ -19,6 +19,9 @@
     border-bottom-left-radius: 30px;
     display: flex;
     justify-content: center;
+    
+
+    
 }
 
 .colum {
@@ -39,7 +42,8 @@
     align-items: center;
     justify-content: center;
     font-size: 14.57px;
-    
+    text-align: left;
+    gap: 10px;
 }
 
 .colum2 {
@@ -57,7 +61,7 @@
     align-items: center;
     color: rgb(116, 116, 116);
     gap: 10px;
-    
+    text-align: left;
     
 }
 
@@ -72,9 +76,8 @@
     display: flex;
     align-items: center;
     color: rgb(116, 116, 116);
-    gap: 10px;
-   
-    
+    text-align: left;
+    gap: 10px;   
 }
 
 .status-list {
@@ -96,4 +99,129 @@
 .derecha {
     position: relative;
     left: 10px;
+}
+
+.btn-logout {
+    background-color: rgb(108, 120, 175);
+    width: 192px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 14.57px;
+    gap: 10px;
+    border-radius: 7px;
+    margin-top: 19px;
+    text-align: left;
+}
+
+.server-title {
+    background-color: rgb(255, 255, 255);
+    width: 192px;
+    height: 37px;
+    border-radius: 7px;
+    color: rgb(177, 177, 177);
+    font-weight: 600;
+    font-size: 14.57px;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(337px, 32px);
+    
+}
+
+
+.elementos-liberados {
+    position: absolute; 
+}
+
+/* quitamos las viñetas de la lista */
+/* nav ul {
+    list-style-type: none; 
+} */
+
+
+header {
+    transform: translate(327px, 32px);
+}
+
+li {
+    display: inline;/* Ítems del menú en una línea horizontal - El elemento genera uno o más cuadros en línea que no generan saltos de línea antes o después de ellos mismos. En flujo normal, el siguiente elemento estará en la misma línea si hay espacio. */ 
+    font-weight: 600;
+    font-size: 14.57px;
+    text-align: left;
+    border-radius: 9px;
+    
+}
+
+ul {
+    padding: 10px;
+    margin-top: 19px;
+}
+
+ul li {
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(116, 116, 116);
+    margin-right: 10px
+}
+
+.home {
+    color: rgb(248, 156, 14);
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+
+.espacio .general-settings {
+    color: rgb(137, 137, 137);
+    font-weight: 600;
+    font-size: 24px;
+    text-align: left;
+    transform: translate(347px, 145px);
+    position: absolute;
+    
+}
+
+.server-code {
+    transform: translate(347px, 214px);
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.server-connection-collation {
+    color: rgb(121, 121, 121);
+    font-weight: 400;
+    font-size: 14.57px;
+    text-align: right;
+}
+
+
+
+.unicode {
+    color: rgb(125, 125, 125);
+    font-weight: 400;
+    font-size: 12.89px;
+    text-align: left;
+    background-color: rgb(255, 255, 255);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.colum-centro {
+    display: flex;
+    flex-direction: column;
 }
